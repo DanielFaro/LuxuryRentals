@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LuxuryRentals/static/css/main.abd64e84.css",
+    "main.js": "/LuxuryRentals/static/js/main.b6776f65.js",
+    "index.html": "/LuxuryRentals/index.html",
+    "main.abd64e84.css.map": "/LuxuryRentals/static/css/main.abd64e84.css.map",
+    "main.b6776f65.js.map": "/LuxuryRentals/static/js/main.b6776f65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.b6776f65.js"
+  ]
+}
