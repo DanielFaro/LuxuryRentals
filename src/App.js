@@ -7,6 +7,7 @@ import Summary from "./Components/Summary";
 import Events from "./Components/Events";
 import Attractions from "./Components/Attractions";
 import Footer from "./Components/Footer";
+import { seedData } from "./lib/seedData";
 
 const GlobalStyles = createGlobalStyle`
     @font-face {
@@ -107,9 +108,10 @@ const App = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/")
-      .then((res) => res.json())
-      .then((data) => setVehicles(data.data));
+    // fetch("http://localhost:5000/")
+    //   .then((res) => res.json())
+    //   .then((data) => setVehicles(data.data));
+    setVehicles(seedData);
   }, []);
 
   return (

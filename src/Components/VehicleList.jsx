@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { vehicleTypes } from '../types';
 import { eventTypes } from '../types';
 
+
 const FilterStyles = styled.form`
   width: 100%;
   height: 80px;
@@ -53,7 +54,7 @@ const VehiclesListStyles = styled.div`
 `;
 
 // VehiclesList displays available rentals per filter state
-export default function VehiclesList({ vehicles }) {
+export default function VehiclesList({vehicles}) {
   const [filteredVehicles, setFilteredVehicles] = useState(vehicles);
   const [vehicle, setVehicle] = useState('All');
   const [event, setEvent] = useState('Any');
@@ -112,7 +113,7 @@ export default function VehiclesList({ vehicles }) {
     }
     setFilteredVehicles(newFilteredVehicles);
   }
-
+  console.log("## vehicles in vehiclelist ==", JSON.stringify(vehicles));
   return (
     <>
       <header>Vehicles</header>
