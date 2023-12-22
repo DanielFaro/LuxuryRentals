@@ -20,10 +20,12 @@ Thank you.
 
 
 ## Instructions - 
-To run the codebase, clone the repo and type 'npm run start' or try it on the linked github pages.
+To run the codebase, clone the repo.
+Navigate to backend folder and run 'npm start' to start the express server and contact MongoDB.
+Navigat to main project folderand type 'npm run start' or try it on the linked github pages.
 [Try Me](https://danielfaro.github.io/LuxuryRentals/)
 
-Navigat to backend folder and run ### npm start
+
 
    
 ## Library choices
