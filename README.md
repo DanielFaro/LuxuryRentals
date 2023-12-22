@@ -32,11 +32,7 @@ Navigat to main project folderand type 'npm run start' or try it on the linked g
 
 ### State Management - 
 
-**Zustand** - Redux seemed like overkill for a small application and I wantedt to challenge myself by trying a new library. I chose zustand due to the small boilerplate and straightforward usage. Some local state was used e.g. the search bar uses a searchValue for the input, which is then sent to the store and set in global state as 'searchTerm'. 
-
-### Visualization - 
-
-**ChartJS with recharts** - I had used ChartJS in the past and with some minor research was able to implement a scatter plot. It also seemed more straight forward than d3, which I don't have much experience with.
+**useState** - Redux seemed like overkill for a small application and simply went with the react hook useState. 
 
 ### Styling - 
 
