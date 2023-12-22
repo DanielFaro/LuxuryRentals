@@ -23,6 +23,8 @@ Thank you.
 To run the codebase, clone the repo and type 'npm run start' or try it on the linked github pages.
 [Try Me](https://danielfaro.github.io/LuxuryRentals/)
 
+Navigat to backend folder and run ### npm start
+
    
 ## Library choices
 
