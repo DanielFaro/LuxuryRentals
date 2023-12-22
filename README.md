@@ -12,8 +12,7 @@ added in the future. I am happy with the simple filtering I provided in the rent
 which is running an express server, and fetching data from mongodb. This data is then set to component state and filtered in the 
 VehicleList component. 
 
-There are a few additions I would make 
-if given the chance. For one I would add typescript to ensure proper data structures. Instead of styled components, I could have used
+There are a few additions I would make if given the chance. For one I would add typescript to ensure proper data structures. Instead of styled components, I could have used
 tailwind, but did not as I am only slightly familiar with TailwindCSS and would not have guaranteed finishing application functionality.
 I would have liked to add resizing/breakpoints for different screen sizes. In addition, upon adding more pages, Next.js could be used
 for navigation using Link components. For a fully loaded render more quickly, a static page could be served from the backend. 
