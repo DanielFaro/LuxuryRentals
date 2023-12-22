@@ -16,7 +16,6 @@ There are a few additions I would make if given the chance. For one I would add 
 tailwind, but did not as I am only slightly familiar with TailwindCSS and would not have guaranteed finishing application functionality.
 I would have liked to add resizing/breakpoints for different screen sizes. In addition, upon adding more pages, Next.js could be used
 for navigation using Link components. For a fully loaded render more quickly, a static page could be served from the backend. 
-Thank you.
 
 
 ## Instructions - 
@@ -26,32 +25,22 @@ Navigat to main project folderand type 'npm run start' or try it on the linked g
 [Try Me](https://danielfaro.github.io/LuxuryRentals/)
 
 
-
-   
 ## Library choices
 
 ### State Management - 
 
-**useState** - Redux seemed like overkill for a small application and simply went with the react hook useState. 
+**useState** - Redux seemed like overkill for a small application and simply went with the react hook useState. However if the app went to production I would likely use redux or Zustand if small.
 
 ### Styling - 
 
-**Styled-Components** - I decided to use styled-components for all accept the table component,
-which had a more complicated structure. I decided to create a separate css file for the table to 
-not end up with an enormous main Table component which would decrease readability. Styled-components
+**Styled-Components** - I decided to use styled-components and created a GlobalStyle object. Styled-components
 provided me with enough functionality without having to rely on prebuilt component libraries and global themes as with e.g. MaterialUI.
-
-## Things I'm Proud of - 
-I used memoization where I could, but due to having to fit everything within a timeframe, there are definite ways to improve performance. (see possible enhancements)
-I am a fan of the dog image showing on hover in the tooltip. I found this a good way to decrease the table row height and show more data per page.
-I think I chose a good set of data to visualize, especially interesting to see the chart after searching.
 
 ## Possible Enhancements - 
  
 1. Lazy loading images
 2. More memoization
 3. I would ideally get rid of the search button and add debouncing to prevent constant resetting of the filter term.
-
 
 
 ## Available Scripts
